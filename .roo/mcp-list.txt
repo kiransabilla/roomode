@@ -1,0 +1,335 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "${env:SUPABASE_ACCESS_TOKEN}"
+      ],
+      "alwaysAllow": [
+        "list_tables",
+        "execute_sql",
+        "listTables",
+        "list_projects",
+        "list_organizations",
+        "get_organization",
+        "apply_migration",
+        "get_project",
+        "execute_query",
+        "generate_typescript_types",
+        "listProjects"
+      ],
+      "description": "Server MCP Supabase - Backend Database, Autentikasi, dan Storage"
+    },
+    "composio_search": {
+      "url": "https://mcp.composio.dev/composio_search/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Pencarian web terpadu untuk agen"
+    },
+    "mem0": {
+      "url": "https://mcp.composio.dev/mem0/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Penyimpanan pengetahuan dan catatan"
+    },
+    "perplexityai": {
+      "url": "https://mcp.composio.dev/perplexityai/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Pencarian AI dan tanya jawab"
+    },
+    "codeinterpreter": {
+      "url": "https://mcp.composio.dev/codeinterpreter/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Eksekusi kode dan analisis data"
+    },
+    "gmail": {
+      "url": "https://mcp.composio.dev/gmail/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Layanan email Google"
+    },
+    "youtube": {
+      "url": "https://mcp.composio.dev/youtube/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform berbagi video"
+    },
+    "ahrefs": {
+      "url": "https://mcp.composio.dev/ahrefs/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Analytics SEO"
+    },
+    "linkedin": {
+      "url": "https://mcp.composio.dev/linkedin/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Jaringan profesional"
+    },
+    "hackernews": {
+      "url": "https://mcp.composio.dev/hackernews/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Diskusi berita teknologi"
+    },
+    "notion": {
+      "url": "https://mcp.composio.dev/notion/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Manajemen pengetahuan"
+    },
+    "slack": {
+      "url": "https://mcp.composio.dev/slack/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Komunikasi tim"
+    },
+    "asana": {
+      "url": "https://mcp.composio.dev/asana/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Manajemen proyek"
+    },
+    "trello": {
+      "url": "https://mcp.composio.dev/trello/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Papan Kanban"
+    },
+    "jira": {
+      "url": "https://mcp.composio.dev/jira/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Pelacakan issue dan proyek"
+    },
+    "zendesk": {
+      "url": "https://mcp.composio.dev/zendesk/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Layanan pelanggan"
+    },
+    "dropbox": {
+      "url": "https://mcp.composio.dev/dropbox/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Berbagi file cloud"
+    },
+    "box": {
+      "url": "https://mcp.composio.dev/box/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Penyimpanan file enterprise"
+    },
+    "onedrive": {
+      "url": "https://mcp.composio.dev/onedrive/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Penyimpanan cloud Microsoft"
+    },
+    "google_drive": {
+      "url": "https://mcp.composio.dev/google_drive/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Penyimpanan file cloud Google"
+    },
+    "calendar": {
+      "url": "https://mcp.composio.dev/calendar/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Manajemen kalender"
+    },
+    "outlook": {
+      "url": "https://mcp.composio.dev/outlook/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Email dan kalender Microsoft"
+    },
+    "salesforce": {
+      "url": "https://mcp.composio.dev/salesforce/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform CRM"
+    },
+    "hubspot": {
+      "url": "https://mcp.composio.dev/hubspot/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform CRM dan marketing"
+    },
+    "airtable": {
+      "url": "https://mcp.composio.dev/airtable/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Database kolaboratif"
+    },
+    "clickup": {
+      "url": "https://mcp.composio.dev/clickup/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform produktivitas"
+    },
+    "monday": {
+      "url": "https://mcp.composio.dev/monday/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform manajemen kerja"
+    },
+    "linear": {
+      "url": "https://mcp.composio.dev/linear/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Pelacakan issue modern"
+    },
+    "intercom": {
+      "url": "https://mcp.composio.dev/intercom/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Messaging pelanggan"
+    },
+    "freshdesk": {
+      "url": "https://mcp.composio.dev/freshdesk/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Dukungan pelanggan"
+    },
+    "shopify": {
+      "url": "https://mcp.composio.dev/shopify/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform e-commerce"
+    },
+    "stripe": {
+      "url": "https://mcp.composio.dev/stripe/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Pemrosesan pembayaran"
+    },
+    "paypal": {
+      "url": "https://mcp.composio.dev/paypal/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Pembayaran online"
+    },
+    "quickbooks": {
+      "url": "https://mcp.composio.dev/quickbooks/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Software akuntansi"
+    },
+    "xero": {
+      "url": "https://mcp.composio.dev/xero/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Akuntansi dan keuangan"
+    },
+    "mailchimp": {
+      "url": "https://mcp.composio.dev/mailchimp/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform email marketing"
+    },
+    "sendgrid": {
+      "url": "https://mcp.composio.dev/sendgrid/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Layanan pengiriman email"
+    },
+    "twilio": {
+      "url": "https://mcp.composio.dev/twilio/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "API SMS dan panggilan"
+    },
+    "plaid": {
+      "url": "https://mcp.composio.dev/plaid/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "API data keuangan"
+    },
+    "zoom": {
+      "url": "https://mcp.composio.dev/zoom/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Video konferensi"
+    },
+    "calendar_google": {
+      "url": "https://mcp.composio.dev/calendar_google/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Integrasi Google Calendar"
+    },
+    "calendar_outlook": {
+      "url": "https://mcp.composio.dev/calendar_outlook/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Integrasi Outlook Calendar"
+    },
+    "discord": {
+      "url": "https://mcp.composio.dev/discord/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Messaging komunitas"
+    },
+    "telegram": {
+      "url": "https://mcp.composio.dev/telegram/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Aplikasi messaging"
+    },
+    "facebook": {
+      "url": "https://mcp.composio.dev/facebook/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Jejaring sosial"
+    },
+    "instagram": {
+      "url": "https://mcp.composio.dev/instagram/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Berbagi foto"
+    },
+    "twitter": {
+      "url": "https://mcp.composio.dev/twitter/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform microblogging"
+    },
+    "reddit": {
+      "url": "https://mcp.composio.dev/reddit/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Agregasi berita sosial"
+    },
+    "medium": {
+      "url": "https://mcp.composio.dev/medium/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform blogging"
+    },
+    "wordpress": {
+      "url": "https://mcp.composio.dev/wordpress/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Publishing website dan blog"
+    },
+    "webflow": {
+      "url": "https://mcp.composio.dev/webflow/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Desain web dan hosting"
+    },
+    "figma": {
+      "url": "https://mcp.composio.dev/figma/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Desain UI kolaboratif"
+    },
+    "adobe": {
+      "url": "https://mcp.composio.dev/adobe/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Alat dan software kreatif"
+    },
+    "calendly": {
+      "url": "https://mcp.composio.dev/calendly/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Penjadwalan janji temu"
+    },
+    "eventbrite": {
+      "url": "https://mcp.composio.dev/eventbrite/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Manajemen acara dan tiket"
+    },
+    "huggingface": {
+      "url": "https://mcp.composio.dev/huggingface/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Hosting model dan API AI"
+    },
+    "openai": {
+      "url": "https://mcp.composio.dev/openai/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Model GPT, DALL-E, embeddings"
+    },
+    "replicate": {
+      "url": "https://mcp.composio.dev/replicate/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Hosting model AI"
+    },
+    "cohere": {
+      "url": "https://mcp.composio.dev/cohere/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Model NLP"
+    },
+    "stabilityai": {
+      "url": "https://mcp.composio.dev/stabilityai/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "AI generasi gambar"
+    },
+    "groq": {
+      "url": "https://mcp.composio.dev/groq/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Inferensi AI performa tinggi"
+    },
+    "llamaindex": {
+      "url": "https://mcp.composio.dev/llamaindex/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Framework data untuk LLM"
+    },
+    "langchain": {
+      "url": "https://mcp.composio.dev/langchain/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Framework untuk aplikasi LLM"
+    },
+    "vercelai": {
+      "url": "https://mcp.composio.dev/vercelai/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "SDK AI, deployment cepat"
+    },
+    "autogen": {
+      "url": "https://mcp.composio.dev/autogen/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Orkestrasi multi-agen"
+    },
+    "crewai": {
+      "url": "https://mcp.composio.dev/crewai/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Framework tim agen"
+    },
+    "cursor": {
+      "url": "https://mcp.composio.dev/cursor/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Editor kode bertenaga AI"
+    },
+    "windsurf": {
+      "url": "https://mcp.composio.dev/windsurf/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Platform pengembangan AI"
+    },
+    "python": {
+      "url": "https://mcp.composio.dev/python/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Integrasi Python"
+    },
+    "nodejs": {
+      "url": "https://mcp.composio.dev/nodejs/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Integrasi Node.js"
+    },
+    "typescript": {
+      "url": "https://mcp.composio.dev/typescript/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Integrasi TypeScript"
+    },
+    "github": {
+      "url": "https://mcp.composio.dev/github/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Manajemen repositori, issues, PRs"
+    },
+    "gitlab": {
+      "url": "https://mcp.composio.dev/gitlab/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Manajemen repo, pipeline CI/CD"
+    },
+    "bitbucket": {
+      "url": "https://mcp.composio.dev/bitbucket/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Kolaborasi kode, hosting repo"
+    },
+    "dockerhub": {
+      "url": "https://mcp.composio.dev/dockerhub/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Registry dan manajemen container"
+    },
+    "npm": {
+      "url": "https://mcp.composio.dev/npm/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Registry paket Node.js"
+    },
+    "pypi": {
+      "url": "https://mcp.composio.dev/pypi/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Indeks paket Python"
+    },
+    "huggingfacehub": {
+      "url": "https://mcp.composio.dev/huggingfacehub/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "description": "Repositori model AI"
+    }
+  }
+}

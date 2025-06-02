@@ -1,0 +1,64 @@
+{
+  "_komentar": "Konfigurasi Server MCP untuk Integrasi Layanan Eksternal",
+  "_deskripsi": "File ini mengkonfigurasi server MCP yang paling sering digunakan untuk pengembangan dengan metodologi SPARC",
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "${env:SUPABASE_ACCESS_TOKEN}"
+      ],
+      "alwaysAllow": [
+        "list_tables",
+        "execute_sql",
+        "listTables",
+        "list_projects",
+        "list_organizations",
+        "get_organization",
+        "apply_migration",
+        "get_project",
+        "execute_query",
+        "generate_typescript_types",
+        "listProjects"
+      ],
+      "_deskripsi": "Server MCP Supabase - Backend Database, Autentikasi, dan Storage",
+      "_kategori": "Database & Backend",
+      "_penggunaan": "Untuk manajemen database PostgreSQL, autentikasi pengguna, dan penyimpanan file"
+    },
+    "mem0": {
+      "url": "https://mcp.composio.dev/mem0/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "_deskripsi": "Penyimpanan pengetahuan dan catatan untuk agen AI",
+      "_kategori": "AI & Machine Learning",
+      "_penggunaan": "Untuk menyimpan dan mengambil konteks, memori, dan pengetahuan agen"
+    },
+    "perplexityai": {
+      "url": "https://mcp.composio.dev/perplexityai/abandoned-creamy-horse-Y39-hm?agent=cursor",
+      "_deskripsi": "Pencarian AI dan sistem tanya jawab cerdas",
+      "_kategori": "AI & Machine Learning", 
+      "_penggunaan": "Untuk pencarian informasi berbasis AI dan mendapatkan jawaban kontekstual"
+    }
+  },
+  "_instruksi_penggunaan": {
+    "supabase": [
+      "Pastikan SUPABASE_ACCESS_TOKEN sudah diatur di environment variables",
+      "Gunakan untuk operasi database, autentikasi, dan storage",
+      "Selalu implementasikan kebijakan RLS untuk keamanan data"
+    ],
+    "mem0": [
+      "Gunakan untuk menyimpan konteks percakapan dan pengetahuan",
+      "Ideal untuk aplikasi yang membutuhkan memori jangka panjang"
+    ],
+    "perplexityai": [
+      "Gunakan untuk pencarian informasi real-time",
+      "Cocok untuk mendapatkan informasi terkini dan kontekstual"
+    ]
+  },
+  "_catatan_keamanan": [
+    "Jangan pernah commit token atau kredensial dalam kode",
+    "Gunakan environment variables untuk semua konfigurasi sensitif",
+    "Validasi semua input sebelum mengirim ke server MCP",
+    "Implementasikan rate limiting untuk mencegah abuse"
+  ]
+}
